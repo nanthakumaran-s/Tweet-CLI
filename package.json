@@ -1,0 +1,28 @@
+{
+  "name": "tweet-cli",
+  "version": "1.0.0",
+  "description": "Tweet directly from your CLI",
+  "main": "./src/cli.js",
+  "type": "module",
+  "bin": {
+    "node-server-starters": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanthakumaran-s/Tweet-CLI.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Nanthakumaran S",
+    "email": "nanthankumaransenthil@gmail.com",
+    "url": "https://github.com/nanthakumaran-s"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanthakumaran-s/Tweet-CLI/issues"
+  },
+  "homepage": "https://github.com/nanthakumaran-s/Tweet-CLI#readme"
+}
