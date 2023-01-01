@@ -10,7 +10,12 @@
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers'
 import { config } from './config.js';
+import { tweet } from './tweet.js';
 
 yargs(hideBin(process.argv))
   .command('config', 'Config Tweet CLI', config)
+  .parse()
+
+yargs(hideBin(process.argv))
+  .command('tweet', 'Tweet', tweet)
   .parse()

@@ -1,8 +1,8 @@
 import inquirer from "inquirer";
 import fs from "fs";
 import ora from "ora"
-import path from "path";
 import chalk from "chalk";
+import { configEnvFile, configEnvFolder } from "./constants.js";
 
 export const config = async () => {
     const loader = ora()
@@ -14,29 +14,29 @@ export const config = async () => {
 
     const config = {
         appKey: appKey,
-        appSecre: appSecret,
+        appSecret: appSecret,
         accessToken: accessToken,
         accessSecret: accessSecret,
     }
 
     loader.start()
 
-    let env = path.join(path.resolve(), '.config')
-    if(!fs.existsSync(env)) {
-        fs.mkdirSync(env)
+    if(!fs.existsSync(configEnvFolder)) {
+        fs.mkdirSync(configEnvFolder)
     }
 
     try {
-        env = path.join(env, 'config.json')
-        fs.writeFileSync(env, JSON.stringify(config))
+        fs.writeFileSync(configEnvFile, JSON.stringify(config))
         loader.succeed(
             chalk.green("Successfully created configuration file")
         );
+        process.exit(0);
     } catch (err) {
         loader.fail(
             chalk.red("Some error occured. Please raise an issue at ") +
             chalk.cyan("https://github.com/nanthakumaran-s/Tweet-CLI/issues")
         );
         console.error(err);
+        process.exit(1);
     }
 }

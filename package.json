@@ -5,7 +5,7 @@
   "main": "./src/cli.js",
   "type": "module",
   "bin": {
-    "node-server-starters": "./src/cli.js"
+    "tweet-cli": "./src/cli.js"
   },
   "scripts": {
     "start": "node ./src/cli.js"
