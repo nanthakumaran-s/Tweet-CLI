@@ -7,11 +7,10 @@
  https://github.com/nanthakumaran-s/Tweet-CLI
 */
 
-const main = async () => {
-    try {
-    } catch (error) {
-       err(error);
-    }
-}
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers'
+import { config } from './config.js';
 
-await main()
+yargs(hideBin(process.argv))
+  .command('config', 'Config Tweet CLI', config)
+  .parse()
