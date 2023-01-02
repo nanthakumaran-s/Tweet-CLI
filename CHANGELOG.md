@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v0.2.1...v0.2.2) (2023-01-02)
+
+
+### Bug Fixes
+
+* removed build from publish.yml ([b71c3ae](https://github.com/nanthakumaran-s/Tweet-CLI/commit/b71c3ae6423ce982919ee6d5a17cb257a829636a))
+
+
+
 ## [0.2.1](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v0.2.0...v0.2.1) (2023-01-02)
 
 
