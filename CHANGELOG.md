@@ -1,4 +1,13 @@
-# 0.2.0 (2023-01-02)
+## [0.2.1](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v0.2.0...v0.2.1) (2023-01-02)
+
+
+### Bug Fixes
+
+* Changed Github token to personal access token in release.yml ([ce294b6](https://github.com/nanthakumaran-s/Tweet-CLI/commit/ce294b626c0627a2cd907d621ee33b6b9ce803b7))
+
+
+
+# [0.2.0](https://github.com/nanthakumaran-s/Tweet-CLI/compare/903ba6889266be21dc3be3128bbff3f7c17b77b4...v0.2.0) (2023-01-02)
 
 
 ### Bug Fixes
