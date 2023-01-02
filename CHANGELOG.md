@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v0.2.2...v0.2.3) (2023-01-02)
+
+
+### Bug Fixes
+
+* Changed package name ([fba643b](https://github.com/nanthakumaran-s/Tweet-CLI/commit/fba643be439995fa10c67f4978e3239df28021c6))
+
+
+
 ## [0.2.2](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v0.2.1...v0.2.2) (2023-01-02)
 
 
