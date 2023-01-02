@@ -10,6 +10,7 @@
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers'
 import { config } from './config.js';
+import { credentials } from './credentials.js';
 import { tweet } from './tweet.js';
 
 yargs(hideBin(process.argv))
@@ -18,4 +19,8 @@ yargs(hideBin(process.argv))
 
 yargs(hideBin(process.argv))
   .command('tweet', 'Tweet', tweet)
+  .parse()
+
+yargs(hideBin(process.argv))
+  .command('credentials', 'Credentials', credentials)
   .parse()
