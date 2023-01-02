@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v1.0.1...v1.0.2) (2023-01-02)
+
+
+### Bug Fixes
+
+* Changed publish.yml ([5e49283](https://github.com/nanthakumaran-s/Tweet-CLI/commit/5e49283e2c3665a3b4917c4917b4249eda647d61))
+
+
+
 ## [1.0.1](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v0.1.1...v1.0.1) (2023-01-02)
 
 
