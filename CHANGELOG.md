@@ -1,3 +1,12 @@
+## [0.2.4](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v0.2.3...v0.2.4) (2023-01-12)
+
+
+### Bug Fixes
+
+* update README.md ([0f9e6a6](https://github.com/nanthakumaran-s/Tweet-CLI/commit/0f9e6a69fdf92d6e6a98cea2f01692a75ebebd08))
+
+
+
 ## [0.2.3](https://github.com/nanthakumaran-s/Tweet-CLI/compare/v0.2.2...v0.2.3) (2023-01-02)
 
 
